@@ -1,0 +1,1 @@
+web:gunicorn grinco.wsgi --log-file -
