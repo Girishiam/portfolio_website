@@ -1,0 +1,150 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    overflow-x: hidden;
+
+}
+
+  
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.8;
+    background: #fff; 
+}
+.navbar .nav-item {
+      font-size: 1.1rem;
+      padding-right: 1.1rem; 
+}
+  
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #3292a6; 
+}
+  
+.navbar-nav {
+    margin-left: auto; 
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+    color: #3292a6; 
+}
+
+/*banner*/
+
+#showcase {
+    position: relative;
+    background: url("../images/banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px; 
+}
+
+#showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; 
+}
+#showcase img {
+    height: auto;
+    width: auto;
+    max-width: 450px;
+    margin: auto; 
+    margin-top:150px;
+
+}
+
+/*     Services    */
+
+#service-header {
+    position: relative;
+    min-height: 200px;
+    background: url("../images/banner3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+  
+#service-header .dark-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left: 0; 
+}
+
+.card-footer{
+    background: white;
+    margin-top:20px;
+}
+
+
+.btn-custom{
+    background:#3292a6;
+
+}
+
+#about-header {
+    position: relative;
+    min-height: 200px;
+    background: url("../images/about.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+#about-header .dark-overlay {
+    position: absolute;
+    background: rgba(50, 146, 166, 0.8);
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left: 0; 
+}
+
+.faaaaa{
+    font-size: 20px;
+    color:rgba(50, 146, 166)
+}
+
+
+#footer{
+    margin-top: 20px;
+}
+
+
+#footer .fa{
+    color:white;
+    font-size:20px;
+
+}
+#footer a{
+    color:white;
+}
+#footer .fa:hover{
+    color:rgba(50, 146, 166);
+    
+}
+#footer a:hover{
+    color:rgba(50, 146, 166);
+    text-decoration:none;
+
+    
+}
+
+.icon{
+    font-size:20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #service-header{
+        margin-top: 100px;
+       
+    }
+
+}
